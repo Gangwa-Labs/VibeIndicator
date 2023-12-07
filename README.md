@@ -1,1 +1,1 @@
-# VibeIndicator
+# Vibe Indicator

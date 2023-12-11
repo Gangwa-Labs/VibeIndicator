@@ -70,7 +70,7 @@ void setup() {
   config.fb_count = 1;
   tft.initR(INITR_144GREENTAB);  // Init ST7735R chip, green tab
   tft.fillScreen(ST77XX_BLACK);
-
+  tft.setRotation(2);
   // Initialize the camera with the settings
   esp_err_t err = esp_camera_init(&config);
   if (err != ESP_OK) {
